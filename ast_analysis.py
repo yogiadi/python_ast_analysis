@@ -3,7 +3,7 @@ from pprint import pprint as pp
 
 
 def main():
-    analysis_file = open("ast_report.txt","w")
+    analysis_file = open("dask_report.txt","w")
     for path, dirs, files in os.walk('dask'):
         for file in files:
             if file.endswith('.py'):
